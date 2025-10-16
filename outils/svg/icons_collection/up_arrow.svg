@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <rect width="64" height="64" fill="#0F0F0F"/>
+  <polygon points="32,12 16,36 48,36" fill="#FFD700"/>
+  <text x="32" y="58" text-anchor="middle" font-size="6" fill="#CCCCCC" font-family="Georgia">Up</text>
+</svg>

@@ -1,0 +1,15 @@
+
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- خلفية مستطيلة مشابهة لـ My Files -->
+  <rect x="8" y="12" width="48" height="40" rx="4" fill="black" stroke="black" stroke-width="2"/>
+
+  <!-- نصف قمر ذهبي في اليسار -->
+  <path d="M28 32C28 37.5228 23.5228 42 18 42C16.5 42 15 41.6 13.8 40.8C17.5 39.5 20 35.9 20 32C20 28.1 17.5 24.5 13.8 23.2C15 22.4 16.5 22 18 22C23.5228 22 28 26.4772 28 32Z" fill="gold"/>
+
+  <!-- شمس بسيطة في اليمين -->
+  <circle cx="46" cy="32" r="6" fill="gold"/>
+  <line x1="46" y1="22" x2="46" y2="18" stroke="gold" stroke-width="1.5"/>
+  <line x1="46" y1="42" x2="46" y2="46" stroke="gold" stroke-width="1.5"/>
+  <line x1="52" y1="32" x2="56" y2="32" stroke="gold" stroke-width="1.5"/>
+  <line x1="40" y1="32" x2="36" y2="32" stroke="gold" stroke-width="1.5"/>
+</svg>

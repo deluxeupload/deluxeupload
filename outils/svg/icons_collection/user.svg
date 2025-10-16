@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <circle cx="32" cy="22" r="10" fill="#FFD700"/>
+  <path d="M16 54c0-10 12-14 16-14s16 4 16 14" fill="#262626" stroke="#FFD700" stroke-width="2"/>
+  <text x="32" y="60" text-anchor="middle" font-size="6" fill="#CCCCCC" font-family="Georgia">User</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <rect width="64" height="64" fill="#000"/>
+  <g fill="#FFD700">
+    <rect x="8" y="8" width="12" height="12"/>
+    <rect x="44" y="8" width="12" height="12"/>
+    <rect x="8" y="44" width="12" height="12"/>
+    <rect x="28" y="28" width="6" height="6"/>
+    <rect x="38" y="38" width="4" height="4"/>
+  </g>
+  <text x="32" y="60" font-size="6" text-anchor="middle" fill="#CCCCCC" font-family="Georgia">QR Code</text>
+</svg>

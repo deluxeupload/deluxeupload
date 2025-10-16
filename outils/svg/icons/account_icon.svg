@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect x="8" y="12" width="48" height="40" rx="4" fill="black" stroke="black" stroke-width="2"/>
+  <path d="M24 12L28 8H52C53.1 8 54 8.9 54 10V16H24V12Z" fill="black"/>
+  <circle cx="16" cy="16" r="3" fill="gold"/>
+  <circle cx="24" cy="16" r="3" fill="gold"/>
+  <text x="50%" y="36" font-family="Arial, sans-serif" font-size="5" fill="white" text-anchor="middle">ACCOUNT</text>
+</svg>

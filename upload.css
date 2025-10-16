@@ -1,0 +1,427 @@
+@font-face{
+    font-family: 'Poppins';
+    src: url('outils/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Poppins';
+    src: url('outils/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("Cairo,Poppins,Roboto/Cairo/Cairo-VariableFont_slnt,wght.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cairo";
+    src: url("Cairo,Poppins,Roboto/Cairo/Cairo-VariableFont_slnt,wght.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+*{
+    font-weight: 600;
+}
+
+body[lang="en"]{
+    font-family: 'Poppins','sans-serif';
+}
+
+body[lang="ar"]{
+    font-family: "Cairo","sans-serif";
+}
+
+body{
+    background-color:#252424;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    overflow: hidden;
+}
+
+.bg-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.content{
+    position: relative;
+    z-index: 1;
+}
+
+
+.fade-up{
+    margin: 0;
+    font-family: 'Poppins'sans-serif;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.fade-up.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(19, 94, 196);
+}
+
+.spinner-border{
+    color: rgb(19, 94, 196);
+}
+
+.nv1{
+    background-color: white;
+}
+
+.card, .card-header{
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+}
+
+.card button{
+    background-color: rgb(19, 94, 196);
+    color: whitesmoke;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: transform 0.3s ease;
+    border: 1px solid black;
+    box-shadow: 2px 1px 0px 1px black;
+    transition: color 0.3s ease;
+}
+.card button:hover{
+    background-color: white;
+    color: rgb(19, 94, 196);
+    font-weight: 700;
+}
+.dv2 button:focus{
+    box-shadow: none;
+    outline: none;
+}
+.nav2{
+    background-color: rgb(19, 94, 196);
+}
+
+
+#ul3 .nav-item .nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+h1{
+    font-weight: 700;
+}
+.dv3 p{
+    font-size: 19px;
+}
+
+/*.dv4{
+    background-attachment: fixed;
+    width: 140px;
+    height: 60px;
+    text-align: center;
+    display: block;
+    float: end;
+    margin-top: 50px;
+    position: fixed;
+    margin-top: 500px;
+    padding: 0;
+}*/
+
+.dv4 div{
+    display: inline-block;
+}
+.dv4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#dv4-1 h3{
+    width: 250px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#dv4-1 p{
+    width: 250px;
+    text-transform: capitalize;
+}
+
+/*#dv4-1{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 1px 5px black;
+}*/
+
+.dv5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-transform: capitalize;
+}
+
+.offcanvas-header h3{
+    text-align: center;
+}
+
+#btnClose{
+    background-color: red;
+    color: white;
+}
+
+.cnvBtn button{
+    display: block;
+    width: 100%;
+    font-weight: 700;
+}
+
+#cnvBtn1{
+    background-color: whitesmoke;
+    color: black;
+}
+#cnvBtn2{
+    background-color: rgb(19, 94, 296);
+    color: white;
+}
+
+#btnOffcnv:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+#search{
+    border: none;
+    border-radius: 0;
+    background-color: whitesmoke;
+}
+
+.dvLST a{
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.dvLST a:hover{
+    color: rgb(33,37,41);
+}
+
+.dvLST .list-group-item-action{
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    font-weight: 600;
+}
+
+#imgAcc{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#mn1 span{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0%;
+    border: none;
+    cursor: pointer;
+}
+#mn1 input{
+    background-color: rgb(240, 240, 240);
+    border-radius: 0%;
+}
+#mn1 input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.input-group span{
+    padding: 1;
+    height: 40px;
+}
+
+.dropdown-menu{
+    text-transform: capitalize;
+    font-size: 600;
+    color: black;
+    border-radius: 0%;
+}
+
+#ul4 li{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#ul4 a:hover{
+    color: rgb(19, 94, 196);
+}
+
+.card{
+    width: 70%;
+    margin-inline: auto;
+    word-wrap: break-word;
+    padding: 3;
+    text-align: center;
+    box-sizing:content-box;
+}
+.card div{
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    flex-direction: column;
+}
+
+.card h1{
+    /* background-color: white; */
+    color: rgb(19, 94, 196);
+}
+
+.card h1{
+    font-weight: bold;
+}
+
+.card p{
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.card .card-body div{
+    border: 1px dotted black;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.card-body{
+    cursor: pointer;
+}
+
+@media screen and (max-width:576px){
+
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navbar-toggler{
+        margin-top: 5px;
+    }
+
+    body{
+        margin: 0;
+    }
+    .dv4{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+    #ul1 li{
+        text-align: center;
+    }
+
+    #ul3 .nav-item .nav-link{
+        font-size: small;
+    }
+}
+
+#show-file{
+    background-color: rgb(19, 94, 196);
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+body.dark {
+    background-color: #252424 !important;
+    color: white !important;
+}
+
+body.dark .dv1{
+    background-color: black;
+}
+
+body.dark .dv2{
+    background-color: #121212;
+}
+
+body.dark .card .card-header{
+    color: white !important;
+}
+
+body.dark .form-control{
+    background-color: #121212 !important;
+    color: white !important;
+    border: none;
+    border-bottom: 2px solid white;
+}
+body.dark .card, body.dark .card-header{
+    background-color: rgba(0, 0, 0, 0.718) !important;
+    backdrop-filter: blur(20px);
+}
+
+body.dark .card .card-header h1{
+    color: rgb(19, 94, 196) !important;
+}
+
+body.dark .card .card-body p{
+    color: white !important;
+}
+
+body.dark .form-label{
+    color: white;
+}
+
+body.dark .form-control:focus{
+    border-bottom: 2px solid rgb(19, 94, 196);
+}
+
+body.dark .nv1{
+    background-color: black;
+}
+
+body.dark .card{
+    /* background-color: black !important; */
+    color: white !important;
+    border-radius: 4px;
+    border: 2px dashed white;
+}
+body.dark .card .card-body div{
+    border: 1px dotted white;
+}
+
+
+body[data-bs-theme="dark"] {
+    background-color: #121212;
+    color: white;
+}
+
+body[data-bs-theme="light"] {
+    background-color: white;
+    color: black;
+}

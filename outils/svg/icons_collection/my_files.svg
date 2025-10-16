@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <rect x="12" y="16" width="40" height="32" rx="4" fill="#1C1C1C" stroke="#FFD700" stroke-width="2"/>
+  <line x1="16" y1="24" x2="48" y2="24" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="16" y1="30" x2="40" y2="30" stroke="#CCCCCC" stroke-width="2"/>
+  <line x1="16" y1="36" x2="44" y2="36" stroke="#CCCCCC" stroke-width="2"/>
+  <text x="32" y="58" text-anchor="middle" font-size="6" fill="#CCCCCC" font-family="Georgia">My Files</text>
+</svg>

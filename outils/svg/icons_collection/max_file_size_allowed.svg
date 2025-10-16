@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <rect x="10" y="14" width="44" height="36" rx="6" fill="#0A0A0A" stroke="#FFD700" stroke-width="2"/>
+  <path d="M20 24h24v4H20zM20 32h18v4H20zM20 40h10v4H20z" fill="#FFD700"/>
+  <text x="32" y="56" text-anchor="middle" font-size="6" fill="#CCCCCC" font-family="Georgia">Max Size</text>
+</svg>
