@@ -10,7 +10,7 @@ ob_end_flush();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
     <title>Deluxe Upload : Edit My Informations</title>
-    <link rel="stylesheet" href="bootstrap-5.3.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="edit.css">
     <link rel="icon" href="outils/favicons/1748349885280.PNG">
 </head>
@@ -66,7 +66,7 @@ ob_end_flush();
 
     <script src="theme.js"></script>
     <script src="loading.js"></script>
-    <script src="bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -21,7 +21,7 @@ $img = basename($user['profile_picture']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1,user-scalable=no">
     <title>Deluxe Upload : Dashboard</title>
     <link rel="icon" type="image/png" href="outils/favicons/1748349885280.PNG">
-    <link rel="stylesheet" href="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="dashboard.css">
     <link rel="stylesheet" href="fontawesome-free-7.0.0-web/fontawesome-free-7.0.0-web/css/all.min.css">
     <link rel="stylesheet" href="NProgress/nprogress.css">
@@ -514,11 +514,10 @@ $img = basename($user['profile_picture']);
     <script src="theme-myfiles.js"></script>
     <script src="loading.js"></script>
     <script src="confirm-alert.js"></script>
-    <!-- <script src="fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/js/all.min.js"></script> -->
     <script src="nprogress/nprogress.js"></script>
     <script src="nprogress.js"></script>
     <script src="sweetalert/sweetalert2.min.js"></script>
-    <script src="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

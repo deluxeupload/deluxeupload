@@ -22,7 +22,7 @@ if (isset($_GET['fileid']) && is_numeric($_GET['fileid'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ديلوكس أبلود : صفحة اضافة بلاغ</title>
     <link rel="shortcut icon" href="outils/favicons/1748349885280.PNG" type="image/x-icon">
-    <link rel="stylesheet" href="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="reports.css">
     <link rel="stylesheet" href="fontawesome-free-7.0.0-web/fontawesome-free-7.0.0-web/css/all.min.css">
 </head>
@@ -86,7 +86,7 @@ if (isset($_GET['fileid']) && is_numeric($_GET['fileid'])) {
     <!-- <script src="reports.js"></script> -->
     <script src="theme.js"></script>
     <script src="loading.js"></script>
-    <script src="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
